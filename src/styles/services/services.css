@@ -1,0 +1,26 @@
+.services .services_item {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 0.7rem;
+       column-gap: 0.7rem;
+  border-radius: 5px;
+}
+.services .services_item span i {
+  font-size: 2.2rem;
+  background: var(--primary-color);
+  padding: 10px;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: 400 !important;
+}
+.services .services_item h3 {
+  color: var(--primary-color);
+  font-size: 1.1rem;
+  font-family: 600;
+  margin-top: 5px;
+  margin-bottom: 0.5rem;
+}
+.services .services_item p {
+  font-size: 0.8rem;
+}/*# sourceMappingURL=services.css.map */
