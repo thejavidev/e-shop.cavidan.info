@@ -1,0 +1,21 @@
+.footer{
+    padding: 60px 0 30px 0;
+    background: var(--primary-color);
+    .logo{
+        img{
+            background: #fff;
+            padding: 5px;
+            border-radius: 5px;
+        }
+    }
+    .footer_quick_links{
+        ul{
+           li{
+                background: transparent !important;
+                a{
+                    color: #ccc;
+                }
+           }
+        }
+    }
+}
