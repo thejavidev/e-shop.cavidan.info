@@ -6,14 +6,14 @@ import ProductCard from './ProductCard';
 const ProductsList = ({data}) => {
 
   return (
-    <div className='d-flex flex-wrap '>
+    <>
         {
-            data && data.map(item=>(
-                <ProductCard item={item} />
+            data && data.map((item,index)=>(
+                <ProductCard item={item} key={index}/>
             ))
         }
      
-    </div>
+    </>
   )
 }
 

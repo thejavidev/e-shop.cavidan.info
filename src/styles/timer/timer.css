@@ -1,0 +1,41 @@
+.timer_count {
+  background: var(--primary-color);
+  height: 300px;
+}
+.timer_count img {
+  width: 70%;
+  height: 70%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.timer_count .buy_btn {
+  border: none;
+  outline: none;
+  box-shadow: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-top: 40px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+.timer_count .buy_btn a {
+  color: var(--primary-color);
+  width: 100%;
+  padding: 8px 40px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.timer_count .buy_btn:is(:hover, :focus) {
+  color: var(--primary-color);
+  transform: scale(1.05);
+}
+.timer_count .store_btn {
+  background: #fff;
+  color: var(--primary-color);
+}/*# sourceMappingURL=timer.css.map */
