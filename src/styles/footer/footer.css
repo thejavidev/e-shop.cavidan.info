@@ -7,6 +7,9 @@
   padding: 5px;
   border-radius: 5px;
 }
+.footer .copyright {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
 .footer .footer_quick_links ul li {
   background: transparent !important;
 }

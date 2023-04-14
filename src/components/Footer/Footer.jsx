@@ -70,23 +70,23 @@ const Footer = () => {
                     Contact
                   </h4>
                   <ListGroup>
-                    <ListGroupItem className='ps-0 border-0'>
-                      <span><i class="ri-map-pin-line"></i></span>
+                    <ListGroupItem className='ps-0 border-0 d-flex align-items-center gap-2'>
+                      <span><i className="ri-map-pin-line text-white"></i></span>
                       <p>Baku,Azerbaijan</p>
                     </ListGroupItem>
-                    <ListGroupItem className='ps-0 border-0'>
-                      <span><i class="ri-phone-fill"></i></span>
+                    <ListGroupItem className='ps-0 border-0 d-flex align-items-center gap-2'>
+                      <span><i className="ri-phone-fill text-white" ></i></span>
                       <p>+944502563020</p>
                     </ListGroupItem>
-                    <ListGroupItem className='ps-0 border-0'>
-                      <span><i class="ri-mail-line"></i></span>
+                    <ListGroupItem className='ps-0 border-0 d-flex align-items-center gap-2'>
+                      <span><i className="ri-mail-line text-white"></i></span>
                       <p>sales@sales.com</p>
                     </ListGroupItem>
                   </ListGroup>
                 </div>
             </Col>
             <Col lg='12'> 
-                <p className="copyright">Copyright - {year} developed by <Link to='https://cavidan.info' target='_blank'>Javidev</Link> .All rights reserved. </p>
+                <p className="copyright mt-4 pt-4  text-center">Copyright - {year} developed by <Link to='https://cavidan.info' target='_blank'>Javidev</Link> .All rights reserved. </p>
             </Col>
           </Row>
         </Container>
